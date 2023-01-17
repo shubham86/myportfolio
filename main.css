@@ -174,8 +174,9 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.25s ease-in-out;
 		transition: border-bottom-color 0.25s ease-in-out;
 		text-decoration: none;
-		color: #000000;
+		color: #37b0d4 ;
 		border-bottom: dotted 1px;
+		cursor:pointer;
 	}
 
 		a:hover {
@@ -197,7 +198,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color:#37d4b7;
 		font-family: "Raleway", Helvetica, sans-serif;
 		font-weight: 600;
 		letter-spacing: 0.175em;
@@ -227,7 +228,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 0.875rem;
+		font-size: 1rem;
 	}
 
 	h4 {
@@ -3299,7 +3300,7 @@ input, select, textarea {
 			}
 
 			#wrapper > section > header h1, #wrapper > section > header h2 {
-				position: relative;
+				position: relative;				
 			}
 
 				#wrapper > section > header h1:before, #wrapper > section > header h2:before {
