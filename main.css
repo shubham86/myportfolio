@@ -2678,7 +2678,10 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
-
+			.intro .content{
+				height:300px !important;
+			}
+	.actions{display:none !important}
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
@@ -3253,6 +3256,10 @@ input, select, textarea {
 				grid-area: header;
 				justify-self: end;
 				text-align: right;
+			}
+
+			#wrapper section > header > p {
+				text-align : justify !important;
 			}
 
 				/*#wrapper section > header h2 {
